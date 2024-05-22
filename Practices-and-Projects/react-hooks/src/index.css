@@ -1,0 +1,175 @@
+* {
+  list-style-type: none;
+}
+
+.main {
+  margin: 10px 20px;
+}
+
+/*samples*/
+.sample {
+  min-height: 50vh;
+  border: 2px solid grey;
+}
+
+/*Digital- STOPWATCH*/
+.digital {
+  width: 45%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 20px;
+  background-color: rgba(231, 231, 231, 0.959);
+  padding: 30px;
+}
+
+.displayTimer {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(143, 28, 184, 0.732);
+}
+
+.btn-controls button {
+  margin: 10px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-btn {
+  background-color: hsl(115, 100%, 45%);
+}
+
+.start-btn:hover {
+  background-color: hsl(115, 100%, 35%);
+}
+
+.stop-btn {
+  background-color: hsl(4, 100%, 45%);
+}
+
+.stop-btn:hover {
+  background-color: hsl(4, 100%, 35%);
+}
+
+.reset-btn {
+  background-color: hsl(233, 100%, 45%);
+}
+
+.reset-btn:hover {
+  background-color: hsl(233, 100%, 35%);
+}
+/*Digital- STOPWATCH*/
+
+/*TIMER*/
+.watch {
+  background-color: grey;
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-main {
+  backdrop-filter: blur(5px);
+  width: 98vw;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(143, 28, 184, 0.732);
+}
+/*TIMER*/
+
+.box {
+  border: 3px solid;
+  margin: 10px 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* form hook*/
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
